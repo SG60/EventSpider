@@ -26,7 +26,7 @@ aws-sdk-dynamodb = "0.21.0"
 typeshare = "1.0.1"
 
 # config merging
-figment = { version = "0.10.10", features = ["toml", "env"] }
+figment = { version = "0.10.15", features = ["toml", "env"] }
 
 # error types
 thiserror = "1.0.37"
