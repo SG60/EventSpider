@@ -15,7 +15,7 @@ description = "Some opinionated useful utilities for setting up otel tracing in 
 thiserror = "1.0.37"
 anyhow = "1.0.72"
 # tokio tracing
-tracing = "0.1.37"
+tracing = "0.1.40"
 # Implements the types defined in the Otel spec
 # "rt-tokio-current-thread" required for batch exports of spans
 opentelemetry_sdk = { version = "0.21.1", features = ["rt-tokio-current-thread"] }
