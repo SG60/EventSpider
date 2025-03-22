@@ -46,13 +46,13 @@ anyhow = "1.0.82"
 tracing = "0.1.40"
 # Implements the types defined in the Otel spec
 # "rt-tokio-current-thread" required for batch exports of spans
-opentelemetry = { version = "0.18.0", features = ["rt-tokio-current-thread"] }
-opentelemetry-semantic-conventions = "0.10.0"
+opentelemetry = { version = "0.29.0", features = ["rt-tokio-current-thread"] }
+opentelemetry-semantic-conventions = "0.29.0"
 # Integration between the tracing crate and the opentelemetry crate
 tracing-opentelemetry = "0.18.0"
 # Allows you to export data to OTEL collector
 # Requires protoc to be installed (protobuf compiler)
-opentelemetry-otlp = "0.11.0"
+opentelemetry-otlp = "0.29.0"
 tracing-subscriber = { version = "0.3.18", features = ["json", "env-filter"] }
 tracing-serde = "0.1.3"
 # tokion console async debugger
